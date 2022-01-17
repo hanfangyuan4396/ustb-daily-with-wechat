@@ -1,0 +1,9 @@
+[user1]
+# xxx更换为抓包得到的用户sessionid
+cookie = JSESSIONID=xxx
+# xxx更换为post提交的数据，形如 m=yqinfo&c=index&a=submit&phone=&dwszd=
+data = xxx
+
+[user2]
+cookie = JSESSIONID=xxx
+data = xxx

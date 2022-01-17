@@ -1,0 +1,18 @@
+[wechat]
+# 更换为你的企业id
+corporation_id = xxx
+ # 更换为你的应用secret
+corporation_secret = xxx
+ # 更换为你的应用id
+agent_id = 1000002
+
+[ustb_report]
+submit_url = https://isport.ustb.edu.cn/app.RSPWxClient/index.jsp
+ping_url = https://isport.ustb.edu.cn/app.RSPWxClient/index.jsp?m=yqinfo&c=index&a=init
+debug = 0
+random_delay = 1
+max_retry = 5
+# minutes
+max_delay = 5
+# seconds
+retry_interval = 20
