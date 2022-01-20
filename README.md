@@ -41,23 +41,29 @@ iOS用户相对来说获取比较简单，借助stream软件即可实现上述�
 
 安装并信任证书后，回到stream软件，回提示让我们信任证书，不过我们已经信任证书了，直接点击**我已经信任过了**。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/68ab46d245a44e309d16dbe0b1ac1b7c.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5rC055S16LS55ZiO5ZiO,size_20,color_FFFFFF,t_70,g_se,x_16)
-点击**设置抓包模式**，
+点击**设置抓包模式**。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/eedc44f6cd344ae79caeb736724def0d.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5rC055S16LS55ZiO5ZiO,size_20,color_FFFFFF,t_70,g_se,x_16)
-开启**白名单模式**
+开启**白名单模式**。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/d32ca1b2098246f491987704ca575894.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5rC055S16LS55ZiO5ZiO,size_20,color_FFFFFF,t_70,g_se,x_16)
-设置抓包的域名为 *.ustb.edu.cn，然后点击立即生效
+设置抓包的域名为 *.ustb.edu.cn，然后点击**立即生效**。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/fc78e7298d1f429f9a5009c63a915f9b.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5rC055S16LS55ZiO5ZiO,size_20,color_FFFFFF,t_70,g_se,x_16)
-然后点击开始抓包，回到微信提交平安报
+然后点击开始抓包，回到微信提交平安报。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/8d7d21d96d9d4c7ba7829c8800692a77.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5rC055S16LS55ZiO5ZiO,size_20,color_FFFFFF,t_70,g_se,x_16)
-提交后，回到stream软件，点击请求数查看抓到的包，点击POST开头的请求
+提交后，回到stream软件，点击请求数查看抓到的包，点击**POST**开头的请求。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/fe32d42cd970450aaed6c5a8cad50814.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5rC055S16LS55ZiO5ZiO,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-查看POST请求，在请求头部的最下面可以看到JSESSIONID=XX
+查看POST请求，在请求头部的最下面可以看到**JSESSIONID=XX**。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/c14ee24dd1144057aba3ce49e0df0d40.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5rC055S16LS55ZiO5ZiO,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-向下滑动，点击查看表单
+向下滑动，点击**查看表单**。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/f2872b1e05dd455ba7b0d66429f92151.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5rC055S16LS55ZiO5ZiO,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-可以看到如下信息，即为上报的信息
+可以看到如下信息，即为上报的信息。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/a306c4d2776045c0940b6d5c551ef15c.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5rC055S16LS55ZiO5ZiO,size_20,color_FFFFFF,t_70,g_se,x_16)
-复制JSESSIONID和上报的信息，至此抓包完成。
+复制JSESSIONID和上报的信息，至此抓包完成。如果不愿继续折腾，可以把这两部分信息发给了解一些计算机知识的朋友，帮你填。
+
+## 1.2 Android用户
+# 2. 脚本使用
+# 3. 补充
+## 3.1 CA证书
+## 3.2 代码讲解
